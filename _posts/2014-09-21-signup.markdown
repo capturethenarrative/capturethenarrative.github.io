@@ -1,0 +1,8 @@
+---
+layout: index
+img: signup.png
+category: Contest
+title: Step 1 - Join the platform
+description: |
+---
+  Your first step is to enrol in the competition, which will create your account on the social media platform. You can do this below, and you'll be able to choose your social media handles at the same time!

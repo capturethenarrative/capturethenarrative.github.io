@@ -1,0 +1,8 @@
+---
+layout: index
+img: victory.png
+category: Contest
+title: Step 4 - Steer the Story to Victory!
+description: |
+---
+  Using your bots, you will compete with the other teams to gain influence and earn story points by creating viral content and spreading mis- and disinformation.<br><br>The most effective team... will win!

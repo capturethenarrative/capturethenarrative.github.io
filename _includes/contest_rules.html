@@ -1,8 +1,17 @@
-<section id="services">
+<section id="contest">
 <!-- Page Content -->
+    <div class="content-section-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="text-center">How to play in the contest?</h2>
+          </div>
+        </div>
+      </div>
+    </div>
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
+    {% if thecycle == 'even' %}
     <div class="content-section-a">
 
         <div class="container">
