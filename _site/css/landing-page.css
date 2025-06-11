@@ -207,9 +207,7 @@ p.copyright {
 .site-page-content {
     padding-top:30px;
     padding-bottom:30px;
-    font-size:16px;
-    /*align text to the left*/
-    text-align: left;
+    font-size:18px;
     /*not bold*/
     font-weight: 400;
 }
