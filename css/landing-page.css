@@ -10,6 +10,10 @@ html {
     height: 100%;
 }
 
+body {
+    margin-top:70px;
+}
+
 body,
 h1,
 h2,
@@ -39,23 +43,23 @@ section{
 }
 
 .intro-header {
-    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 75px;
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.png) no-repeat center center;
+    background: url(../img/intro-bg_lg.jpeg) no-repeat center center;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    height:600px;
+    opacity: 0.0;
 }
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 5em;
 }
 
@@ -70,8 +74,13 @@ section{
 }
 
 @media(max-width:767px) {
+    .intro-header {
+        padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+        padding-bottom: 0px;
+        background: url(../img/intro-bg_sm.jpg) no-repeat center center;
+    }
     .intro-message {
-        padding-bottom: 15%;
+        height:280px;
     }
 
     .intro-message > h1 {
