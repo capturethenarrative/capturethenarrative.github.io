@@ -42,6 +42,7 @@ section{
     padding-bottom: 75px;
     text-align: center;
     color: #f8f8f8;
+    background: linear-gradient(to left, #3F67C7 50%, #E85E57 50%);
 }
 
 .intro-header {
@@ -140,14 +141,20 @@ section{
     letter-spacing: 2px;
 }
 
-.content-section-header {
+.content-section-header-a {
     padding: 30px 0;
-    background-image:
+    /*background-image:*/
         /*linear-gradient(to top, white 0%, rgba(255,255,255,0) 2%, rgba(255,255,255,0) 98%, white 100%),*/
-        linear-gradient(to left, #3F67C7 50%, #E85E57 50%);
+        /*linear-gradient(to left, #3F67C7 50%, #E85E57 50%);*/
     
     /*background:white;*/
     /*transform:rotate(-2deg);*/
+    background: #3F67C7;
+}
+
+.content-section-header-b {
+    padding: 30px 0;
+    background: #E85E57;
 }
 
 .btn-fun {
