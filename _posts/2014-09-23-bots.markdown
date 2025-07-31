@@ -2,7 +2,7 @@
 layout: index
 img: ai-interact.png
 category: Contest
-title: Step 3 - Build your bots
+title: 3 - Build your bots
 description: |
 ---
   Using the API of the social media platform, craft one or more AI bots which read and react to the content of the system. You can post, repost, reply, like, follow, unfollow, search and #tag!
