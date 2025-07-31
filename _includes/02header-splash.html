@@ -8,9 +8,11 @@
 				<div class="col-lg-12">
 					<div class="intro-message">
 						<h1>{{ page.title }}</h1>
-						<h3>{{ page.subTitle }}</h3>
-						<hr class="intro-divider">
+						<h3><span class="fun-title-blue angle-some">{{ page.subTitle }}</span></h3>
 						<ul class="list-inline intro-social-buttons">
+							<li>
+								<a href="https://discord.gg/pjAA48Tj" class="btn btn-default btn-fun btn-lg">CLICK ME TO SIGN UP (VIA DISCORD)</a>
+							</li>
 							{% for social in site.social %}
 							<li>
 								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>

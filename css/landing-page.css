@@ -54,13 +54,13 @@ section{
 .intro-message {
     position: relative;
     height:600px;
-    opacity: 0.0;
 }
 
 .intro-message > h1 {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 5em;
+    opacity: 0.0;
 }
 
 .intro-divider {
@@ -70,21 +70,36 @@ section{
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    margin-top:323px;
+    line-height:40px;
+    padding: 5px; 
+}
+
+.intro-message > h3 span {
+    padding: 5px 45px;
 }
 
 @media(max-width:767px) {
     .intro-header {
         padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
         padding-bottom: 0px;
-        background: url(../img/intro-bg_sm.jpg) no-repeat center center;
+        background: url(../img/intro-bg_sm.jpg) no-repeat center center, linear-gradient(to left, #3F67C7 50%, #FA4F48 50%);
     }
     .intro-message {
+        position:relative;
         height:280px;
     }
 
     .intro-message > h1 {
         font-size: 3em;
+    }
+
+    .intro-message > h3 {
+        font-size: 1em;
+        margin-top: 146px;
+        line-height: 20px;
+        padding: 5px; 
     }
 
     ul.intro-social-buttons > li {
@@ -100,6 +115,10 @@ section{
     .intro-divider {
         width: 100%;
     }
+
+    .btn-fun {
+        font-size: 0.8em;
+    }
 }
 
 .network-name {
@@ -107,6 +126,46 @@ section{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.content-section-header {
+    padding: 30px 0;
+    background: linear-gradient(to left, #3F67C7 50%, #FA4F48 50%);
+}
+
+.btn-fun {
+    background: white;
+    color: #ea2524;
+    transform: rotate(-1deg);       /* Tilt the title */
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.fun-title {
+    padding: 5px; 
+    
+}
+
+.angle-some {
+    transform: rotate(-2deg);       /* Tilt the title */
+}
+
+.angle-less {
+    transform: rotate(-1deg);       /* Tilt the title */
+}
+
+.fun-title-blue {
+    background: white;
+    color:#193273;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.fun-title-red {
+    background: white;
+    color: #ea2524;
+    display: inline-block;
+    padding: 5px 20px;
 }
 
 .content-section-a {
