@@ -14,11 +14,14 @@
             <!-- IFCYBER logo -->
             <img class="navbar-brand" src="{{ site.baseurl }}/img/unsw-ifcyber-logo.png" alt="IFCYBER Logo" style="height: 64px; width: auto; margin:3px; padding:3px;">
             <!-- Site title -->
-            <a class="navbar-brand page-scroll navbar-brand-ctn collapse navbar-collapse" href="/">{{ site.title }}</a>
+            <!-- <a class="navbar-brand page-scroll navbar-brand-ctn collapse navbar-collapse" href="/">{{ site.title }}</a> -->
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">  
+                <li>
+                    <a class="page-scroll" href="{%if include.type == "sitepage"%}{{ site.baseurl }}/{%endif%}">Home</a>
+                </li> 
             	<li>
                     <a class="page-scroll" href="{%if include.type == "sitepage"%}{{ site.baseurl }}/{%endif%}#about">About</a>
                 </li>            

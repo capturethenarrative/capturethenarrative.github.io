@@ -2,7 +2,7 @@
 layout: index
 img: signup.png
 category: Contest
-title: 1 - Join the platform
+title: 1 - JOIN THE PLATFORM
 description: |
 ---
   Your first step is to enrol in the competition, which will create your account on the social media platform. You can do this below. You can join with a team of up to 4 -- our discord can help you find more team-mates if you would like!
