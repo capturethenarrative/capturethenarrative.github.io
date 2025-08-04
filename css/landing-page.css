@@ -11,8 +11,16 @@ html {
 
 body {
     margin-top:70px;
-    /*background: linear-gradient(to left, #3F67C7 50%, #E85E57 50%);*/
-    background: #ffffff;
+    background: linear-gradient(
+        to right, 
+        #E85E57 0%, 
+        #E85E57 calc(50% - 600px), 
+        #fff calc(50% - 600px), 
+        #fff calc(50% + 600px), 
+        #3F67C7 calc(50% + 600px), 
+        #3F67C7 100%
+    );
+    /*background: #ffffff;*/
 }
 
 body {
@@ -149,15 +157,17 @@ section{
         /*linear-gradient(to left, #3F67C7 50%, #E85E57 50%);*/
     
     
-    background:#eaeaea;
-    transform:rotate(-1deg);
+    /* background:#eaeaea; */
+    /* background:#ffffff; */
+    /* transform:rotate(-1deg); */
     /*background: #3F67C7;*/
 }
 
 .content-section-header-b {
     padding: 30px 0;
-    background:#eaeaea;
-    transform:rotate(-1deg);
+    /* background:#eaeaea; */
+    /* background:#ffffff; */
+    /* transform:rotate(-1deg); */
     /*background: #E85E57;*/
 }
 
@@ -190,15 +200,15 @@ section{
 
 
 .fun-title-blue {
-    /*background: white;
-    /*color:#193273;*/
+    /*background: white;*/
+    color:#193273;
     display: inline-block;
     padding: 5px 40px;
 }
 
 .fun-title-red {
-    /*background: white;
-    /*color: #ea2524;*/
+    /*background: white;*/
+    color: #ea2524;
     display: inline-block;
     padding: 5px 40px;
 }
@@ -215,10 +225,16 @@ section{
     margin-bottom: 30px;
 }
 
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+.section-heading-spacer-red {
+    margin: 0 auto;
+    width: 300px;
+    border-top: 3px solid #ea2524;
+}
+
+.section-heading-spacer-blue {
+    margin: 0 auto;
+    width: 300px;
+    border-top: 3px solid #193273;
 }
 
 .banner {
@@ -309,7 +325,7 @@ p.copyright {
     font-size:18px;
     /*not bold*/
     font-weight: 400;
-    display:inline-block;
     border-radius:16px;
     margin-bottom:20px;
+    background:#ffffff;
 }
