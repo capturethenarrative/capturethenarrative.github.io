@@ -1,6 +1,6 @@
 ---
 layout: index
-img: ai-interact.png
+img: new-bots.png
 category: Contest
 title: 3 - BUILD YOUR BOTS
 description: |

@@ -1,6 +1,6 @@
 ---
 layout: index
-img: instruction.png
+img: new-assignments.png
 category: Contest
 title: 2 - RECEIVE YOUR ASSIGNMENTS
 description: |

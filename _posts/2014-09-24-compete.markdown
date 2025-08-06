@@ -1,6 +1,6 @@
 ---
 layout: index
-img: victory.png
+img: new-victory.png
 category: Contest
 title: 4 - STEER THE STORY TO VICTORY!
 description: |
