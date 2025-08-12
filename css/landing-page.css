@@ -388,6 +388,14 @@ p.copyright {
     margin-left:15px !important;
 }
 
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+
 .site-page-content {
     font-size:18px;
     /*not bold*/
