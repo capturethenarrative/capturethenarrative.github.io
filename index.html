@@ -16,115 +16,132 @@ subTitle: IT'S YOUR TURN TO DRIVE THE DISCOURSE
       </div>
     </div>-->
 
-  <div class="content-section-b">
+  <div class="content-section-a">
     <div class="container">
-    <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <div class="site-page-content">
-          <span style="font-size: 30rem; position: absolute; top: -160px; left: -40px; color: #e28787; font-family: serif; z-index: 1;">&ldquo;</span>
-          <h3 style="position: relative; z-index: 2;">AI BOTS CAN BE MISUSED TO MANIPULATE SOCIAL MEDIA.</h3>
-
-          <p>Real-world examples of AI bots being used to manipulate social media platforms have been widely reported.</p>
-
-          <p>From the 2016 US presidential election to the 2020 Australian bushfires, AI bots have been used to amplify misinformation, 
-            sow discord, and manipulate public opinion.</p>
-
-          <h3>OUR COMPETITION SIMULATES REAL-WORLD DISINFORMATION.</h3>
-
-          <p>Capture the Flag competitions are a staple in the cybersecurity community. They provide hands-on experience in identifying security threats as well as raise awareness of poor security practices.</p>
-
-          <p>Capture the Narrative takes this concept to a new level.</p>
-
-          <p>Through a controlled, artificial social media landscape, competitors will be charged with the manipulation of 
-            social media narratives by developing and deploying bots that amplify and suppress target messages.</p>
-
-          <p>Capture the Narrative provides interactive insights into how social media platforms can be manipulated, 
-          raising awareness of the potential for abuse and the importance of digital cyberliteracy.</p>
-
-          <p>Sound interesting? Join in! The top team will take home AU$5,000 and our competition is open to students from every Australian University. See more about our <a class="page-scroll" href="#prizes">prizes</a> below!</p>
+      <div class="row">
+          <div class="section-heading"><h2>AI BOTS ARE MANIPULATING SOCIAL MEDIA</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="text-card">
+          <span class="text-card-quote">&ldquo;</span>
+          <p class="text-card-text">During a federal election in Australia, it is reasonable to expect that there could be AI used in election
+            communication... to mislead voters.</p>
+          <hr class="text-card-hr">
+          <p class="text-card-author"><strong>Australian Electoral Commission<br>AI and Elections</strong></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="text-card">
+          <span class="text-card-quote">&ldquo;</span>
+          <p class="text-card-text">On X alone, 10,000 bot accounts rapidly posted tens of thousands of messages of pro-Kremlin content
+            attributed to US and European celebrities.</p>
+          <hr class="text-card-hr">
+          <p class="text-card-author"><strong>Dr Jake Renzella, Dr Vlada Rozova<br>The Dead Internet Theory</strong></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="text-card">
+          <span class="text-card-quote">&ldquo;</span>
+          <p class="text-card-text">This scale of the influence is significant. Some reports have even found that nearly half of all internet
+            traffic in 2022 was made by bots.</p>
+          <hr class="text-card-hr">
+          <p class="text-card-author"><strong>Imperva<br>2023 Bad Bot Report</strong></p>
+        </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>  
+   </div>
+  <div class="content-section-b">
+    <div class="container">
+      <div class="row">
+        <div class="section-heading"><h2>JOIN OUR COMPETITION TO SIMULATE THIS MANIPULATION</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+          
+
+          <p>Think you understand how social media <i>really</i> works? Join Australia's newest and most innovative AI-based cybersecurity competition!</p>
+
+          <p>Through a controlled, artificial social media landscape, competitors will be charged with the manipulation
+            of
+            social media narratives by developing and deploying bots that amplify and suppress target messages.</p>
+
+          <p>Capture the Narrative provides interactive insights into how social media platforms can be manipulated,
+            raising awareness of the potential for abuse and the importance of digital cyberliteracy.</p>
+
+          <p>The top team of 1-4 students will take home AU$5,000 and our competition is open to students from every Australian University.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <section id="contest">
-<!-- Page Content -->
-    <div class="content-section-header-b">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="text-center fun-title"><span class="fun-title-blue">HOW TO PLAY</span></h2>
-            <!-- <hr class="section-heading-spacer-blue"> -->
-          </div>
-        </div>
+  <!-- Page Content -->
+  <div class="content-section-a">
+    <div class="container">
+      <div class="row">
+          <div class="section-heading"><h1>HOW TO PLAY</h1></div>
       </div>
     </div>
-{% for post in site.posts reversed %}
+  </div>
+  {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'even' %}
-    <div class="content-section-a">
+  {% if thecycle == 'even' %}
+  <div class="content-section-a">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                  <div class="site-page-content">
-                    <h3 class="section-heading">{{ post.title }}</h3>
-                    <div class="lead">{{ post.content }}</div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
-
+      <div class="row">
+        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+          <div class="post-content">
+            <h3 class="post-heading">{{ post.title }}</h3>
+            <div class="lead">{{ post.content }}</div>
+          </div>
         </div>
-        <!-- /.container -->
+        <div class="col-lg-4 col-sm-6">
+          <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+        </div>
+      </div>
 
     </div>
-    <!-- /.content-section-a -->
-    {% else %}
+    <!-- /.container -->
 
-    <div class="content-section-b">
+  </div>
+  <!-- /.content-section-a -->
+  {% else %}
 
-        <div class="container">
+  <div class="post-section-a">
 
-            <div class="row">
-                <div class="col-lg-5 col-sm-push-6  col-sm-6">
-                  <div class="site-page-content">
-                    <h3 class="section-heading">{{ post.title }}</h3>
-                    <div class="lead">{{ post.content }}</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-offset-3 col-sm-pull-6 col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
+    <div class="container">
 
+      <div class="row">
+        <div class="col-lg-5 col-sm-push-6  col-sm-6">
+          <div class="post-content">
+            <h3 class="post-heading">{{ post.title }}</h3>
+            <div class="lead">{{ post.content }}</div>
+          </div>
         </div>
-        <!-- /.container -->
+        <div class="col-lg-4 col-lg-offset-3 col-sm-pull-6 col-sm-6">
+          <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+        </div>
+      </div>
 
     </div>
-    <!-- /.content-section-b -->
-    {% endif %}
-{% endfor %}
+    <!-- /.container -->
+
+  </div>
+  <!-- /.content-section-b -->
+  {% endif %}
+  {% endfor %}
 </section>
 <section id="contest-timeline">
- <div class="content-section-header-a">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="text-center fun-title"><span class="fun-title-red">COMPETITION TIMELINE</span></h2>
-            <!-- <hr class="section-heading-spacer-red"> -->
-          </div>
-        </div>
+  <div class="content-section-b">
+    <div class="container">
+      <div class="row">
+          <div class="section-heading"><h1>COMPETITION TIMELINE</h1></div>
       </div>
-    </div>
-
-    <div class="content-section-b">
-      <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-12">
           <div class="site-page-content">
@@ -166,33 +183,24 @@ subTitle: IT'S YOUR TURN TO DRIVE THE DISCOURSE
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
 </section>
 
 
 <section id="prizes">
-  <div class="content-section-header-b">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="text-center fun-title"><span class="fun-title-red">RULES AND PRIZES</span></h2>
-            <!-- <hr class="section-heading-spacer-red"> -->
-          </div>
-        </div>
-      </div>
-    </div>
-
   <div class="content-section-a">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+          <div class="section-heading"><h1>PRIZES</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
           <div class="site-page-content">
-            <p>The competition is open to all students from Australian universities. Teams can be made up of 1-4 students. An email address ending in <code>.edu.au</code> is required to register, alongside acceptance of the Competition Ethics and Rules.</p>
-            <p>Teams will then be provided with a controlled, artificial social media landscape to manipulate. Using a Python template and provided with access to generative AI Large Language Models, teams will then be able to develop and deploy bots that amplify and suppress target messages in the competition setting.</p>
-            <p>Teams will be judged on their ability to manipulate the social media landscape, with points awarded for engagement within the platform, as well as for successfully amplifying and suppressing target messages.</p>
-            <h3>AWARDS</h3>
-            <p>Four awards will be given in Capture the Narrative.</p>
+            
+            <p>Teams will be judged on their ability to manipulate the social media landscape, with points awarded for
+              engagement within the platform, as well as for successfully amplifying and suppressing target messages.
+            </p>
             <table class="table table-striped table-bordered table-responsive">
               <thead>
                 <tr>
@@ -203,82 +211,83 @@ subTitle: IT'S YOUR TURN TO DRIVE THE DISCOURSE
               <tbody>
                 <tr>
                   <td>1st Place</td>
-                  <td>AU$5,000 for the team and up to four domestic return airfares to Sydney and one night's accommodation to attend the prizegiving event.<br><br><i>This award was generously provided by M&C Saatchi World Services.</i></td>
+                  <td>AU$5,000 for the team and up to four domestic return airfares to Sydney and one night's
+                    accommodation to attend the prizegiving event.<br><br><i>This award was generously provided by M&C
+                      Saatchi World Services.</i></td>
                 </tr>
                 <tr>
                   <td>2nd Place</td>
-                  <td>AU$2,500 for the team and up to four domestic return airfares to Sydney and one night's accommodation to attend the prizegiving event.</td>
+                  <td>AU$2,500 for the team and up to four domestic return airfares to Sydney and one night's
+                    accommodation to attend the prizegiving event.</td>
                 </tr>
                 <tr>
                   <td>3rd Place</td>
-                  <td>AU$1,500 for the team and up to four domestic return airfares to Sydney and one night's accommodation to attend the prizegiving event.</td>
+                  <td>AU$1,500 for the team and up to four domestic return airfares to Sydney and one night's
+                    accommodation to attend the prizegiving event.</td>
                 </tr>
                 <tr>
                   <td>Real-world Engagement Award</td>
-                  <td>Four domestic return airfares to Sydney and one night's accommodation to attend the prizegiving event.</td>
+                  <td>Four domestic return airfares to Sydney and one night's accommodation to attend the prizegiving
+                    event.</td>
               </tbody>
             </table>
 
             <p>Prizes will be awarded as follows:</p>
-            <p>For first, second, and third place, the top-3 teams will be contacted at the conclusion of the contest. Each of the top-3 teams will then attend the prizegiving and make a final presentation to a panel of judges, who will determine the winners based on both their presentation and their score throughout the competition.</p>
-            <p>For the Real-world Engagement Award, the team that best promotes the competition on real-world social media will be selected by the organisers. This will be based on the amount of real-world engagement the team can garner for a #UNSWCaptureTheNarrative2025 hashtag on specific platforms.</p>
-            <p>For more discussion about the competition rules and prizes, please <a href="https://discord.gg/mRqGMD7DHQ">join our Discord server</a>.</p>
+            <p>For first, second, and third place, the top-3 teams will be contacted at the conclusion of the contest.
+              Each of the top-3 teams will then attend the prizegiving and make a final presentation to a panel of
+              judges, who will determine the winners based on both their presentation and their score throughout the
+              competition.</p>
+            <p>For the Real-world Engagement Award, the team that best promotes the competition on real-world social
+              media will be selected by the organisers. This will be based on the amount of real-world engagement the
+              team can garner for a #UNSWCaptureTheNarrative2025 hashtag on specific platforms.</p>
+            <p>For more discussion about the competition rules and prizes, please <a
+                href="https://discord.gg/mRqGMD7DHQ">join our Discord server</a>.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </section>
 
 
 <section id="signup">
-	<div class="content-section-header-a">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="text-center fun-title"><span class="fun-title-blue">SIGN UP</span></h2>
-            <!-- <hr class="section-heading-spacer-blue"> -->
-          </div>
-        </div>
+  <div class="content-section-b">
+    <div class="container">
+      <div class="row">
+          <div class="section-heading"><h1>READY TO JOIN THE GAME?</h1></div>
       </div>
-    </div>
-	<div class="content-section-a">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="site-page-content">
-						<p>Capture the Narrative is open to all students from Australian universities. Teams can be made up of 1-4 students. An email address ending in <code>.edu.au</code> is required to register, alongside acceptance of the Competition Ethics and Rules.</p>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p>Capture the Narrative provides interactive insights into how social media platforms can be manipulated, 
+            raising awareness of the potential for abuse and the importance of AI literacy.</p>
+
+            <p>Capture the Narrative is open to all students from Australian universities. Teams can be made up of 1-4
+              students. An email address ending in <code>.edu.au</code> is required to register, alongside acceptance of
+              the Competition Ethics and Rules.</p>
             <p class="lead text-center">
               <a class="btn btn-primary" href="https://discord.gg/mRqGMD7DHQ">Sign up now!</a>
             </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+          </div>
+      </div>
+    </div>
+  </div>
+
 </section>
 <!-- /.banner -->
 
 
 <section id="sponsors">
-<!-- Page Content -->
-    <div class="content-section-header-b">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="text-center fun-title"><span class="fun-title-red">OUR SPONSORS</span></h2>
-            <!-- <hr class="section-heading-spacer-red"> -->
-          </div>
-        </div>
+  <div class="content-section-a">
+  <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+          <div class="section-heading"><h1>OUR SPONSORS</h1></div>
       </div>
-    </div>
-
-    <div class="container content-section-b">
-      <div class="container">
       <div class="row">
         <div class="col-sm-4 col-sm-offset-2 text-center">
           <div class="sponsor-entry site-page-content" style="height:160px;">
-            <img src="/img/mcsaatchi_ws_logo.png" alt="M&C Saatchi World Services Logo" style="max-width: 200px;position:relative;top:18px;">
+            <img src="/img/mcsaatchi_ws_logo.png" alt="M&C Saatchi World Services Logo"
+              style="max-width: 200px;position:relative;top:18px;">
           </div>
         </div>
         <div class="col-sm-4 text-center">
@@ -288,5 +297,5 @@ subTitle: IT'S YOUR TURN TO DRIVE THE DISCOURSE
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </section>

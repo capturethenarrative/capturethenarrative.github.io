@@ -104,6 +104,11 @@ section{
     padding: 5px 45px;
 }
 
+.header-spacing {
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+
 @media(max-width:767px) {
     .intro-header {
         padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -111,8 +116,7 @@ section{
     }
     .intro-message {
         position:relative;
-        height:500px;
-        top:-100px;
+        height:400px;
     }
 
     .intro-message > h1 {
@@ -124,6 +128,11 @@ section{
         margin-top: 146px;
         line-height: 20px;
         padding: 5px; 
+    }
+
+    .intro-logo{
+        margin-top:20px;
+        width:280px;
     }
 
     ul.intro-social-buttons > li {
@@ -161,7 +170,7 @@ section{
     
     background:#eaeaea;
     /* background:#ffffff; */
-    transform:rotate(-1deg);
+    /* transform:rotate(-1deg); */
     /*background: #3F67C7;*/
 }
 
@@ -169,14 +178,13 @@ section{
     padding: 30px 0;
     background: #eaeaea;
     /* background:#ffffff;a; */
-    transform:rotate(-1deg);
+    /* transform:rotate(-1deg); */
     /*background: #E85E57;*/
 }
 
 .btn-fun {
     background: white;
     color: #ea2524;
-    transform: rotate(-1deg);       /* Tilt the title */
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -229,17 +237,69 @@ section{
     padding: 5px 40px;
 }
 
+.text-card {
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:60px;
+    padding: 50px 20px 20px 20px;
+    box-shadow: 1px 3px 3px #585858;
+}
+
+.text-card-quote {
+    font-size: 18rem; 
+    position: absolute; 
+    top: -70px; 
+    left: 0px; 
+    color: #e28787; 
+    font-family: serif; 
+    z-index: 1;
+}
+
+.text-card-text {
+    font-style: italic;
+    min-height: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.text-card-hr {
+    border: none;
+    border-top: 2px solid #e28787;
+    margin: 20px 0;
+    width: 60px;
+    margin-left: 0;
+}
+
+.text-card-author {
+    text-align: right;
+    font-weight: 700;
+    font-size:1.5rem;
+    /* color: #193273; */
+    min-height: 32px;
+    margin-top: 10px;
+}
 
 .content-section-a {
-    padding: 35px 0;
+    padding-top:10px;
+    padding-bottom:30px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .content-section-b {
-    padding: 35px 0;
+    padding-top:10px;
+    padding-bottom:30px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #fafafa;
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    padding-top:40px;
+    padding-bottom:40px;
+    text-align:center;
+    width:100%;
 }
 
 .section-heading-spacer-red {
@@ -252,6 +312,18 @@ section{
     margin: 0 auto;
     width: 300px;
     border-top: 3px solid #193273;
+}
+
+.post-heading {
+    padding:0px;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 360px;
+    padding:0px;
 }
 
 .banner {
@@ -338,7 +410,6 @@ p.copyright {
 }
 
 .site-page-content {
-    padding:30px;
     font-size:18px;
     /*not bold*/
     font-weight: 400;

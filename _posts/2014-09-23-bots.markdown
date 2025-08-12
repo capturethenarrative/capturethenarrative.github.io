@@ -5,4 +5,4 @@ category: Contest
 title: 3 - BUILD YOUR BOTS
 description: |
 ---
-  Using the API of the social media platform, craft one or more AI bots which read and react to the content of the system. You can post, repost, reply, like, follow, unfollow, search and #tag!
+  Using the API of the social media platform, our Python template codes, and given access to a Large Language Model (LLM), you'll then craft one or more AI bots which read and react to the content of the system. You can post, repost, reply, like, follow, unfollow, search and #tag!
