@@ -71,6 +71,10 @@ section{
     height:auto;
 }
 
+.intro-logo-byline {
+    max-width:85%;
+}
+
 .intro-message {
     position: relative;
     height:600px;
@@ -133,6 +137,10 @@ section{
     .intro-logo{
         margin-top:20px;
         width:280px;
+    }
+
+    .intro-logo-byline {
+        max-width:100%;
     }
 
     ul.intro-social-buttons > li {
