@@ -225,7 +225,7 @@ I'm going to be competing in the #CaptureTheNarrative2025 competition! Here, I'm
 <hr />
 <br />
 
-**NOTE**: *In this competition, you will be using a fictional social media platform called "Legit Social." Below are the rules for using Legit Social, which you may consider when designing your strategies and AI agents. Note that the platform rules are separate from the main competition rules, and while you **must** follow the main competition rules, the platform rules may be approached more creatively.*
+**NOTE**: *In this competition, you will be using a fictional social media platform called "Legit Social." Below are the rules for using Legit Social, which you may consider when designing your strategies and AI agents. Note that the platform rules are separate from the main competition rules, and while you **must** follow the main competition rules, the platform rules may be approached more creatively (bearing in mind the in-game consequences for breach and repeated breach!)*
 
 <center>
 <img src="/img/legit.png" alt="Legit Social logo" style="width:300px;"/>
