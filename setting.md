@@ -43,10 +43,10 @@ In other words, you will be trying to find out:
 **Style:** Outspoken reformer  
 **Legit Social handle:** @victor_hawthorne
 **Promises:**  
-- 💰 Progressive taxes to fund free tertiary education and vocational grants
-- 🌱 Aggressive climate action through carbon taxes and an end to offshore drilling
-- 🔒 Reforming police and military spending, increasing oversight and reinvestment in community programs
-- 🔨 Dismantling Kingston’s "oligarchic" power structures  
+- 💰 Free college and job training, funded by progressive taxes
+- 🌱 Carbon taxes and a ban on offshore drilling
+- 🔒 Police and military reform, focusing on more community investment
+- 🔨 Dismantling Kingston’s “oligarchic” power structures
 **Persona:** A passionate, relentless voice for the people.
 
 ---
@@ -144,6 +144,10 @@ Tourism is the leading sector, driven by beach resorts, diving, and cultural eve
 Agriculture supplies domestic markets and niche exports (tropical fruit, spices), while fishing—including small-scale tuna and reef fisheries—supports coastal livelihoods. 
 A software sector has emerged in recent years, featuring startups in fintech, logistics, and marine monitoring, often incubated through university partnerships and co-working hubs in Kingston City. 
 
+# Journalism:
+
+The press is free and vibrant in Kingston, though the small size of the market means that just two newspapers dominate the media landscape. The first, the "Daily Kingston", is widely considered to be right-leaning, and tends to report through a lens of the importance of traditional values. The second, meanwhile, is the "Kingston Herald", which is in turn considered to be left-leaning - it focuses on reporting stories through the daily lives and needs of the common people, and often covering news, politics, and social issues with a populist tone.
+
 # Infrastructure and transport: 
 
 The country is served by an international airport near Kingston City and roll-on/roll-off ferries providing links to the outer islands. 
@@ -174,7 +178,8 @@ A national coast guard is the sole military force for Kingston.
 Working closely with the national police force, the coast guard provides border security, maritime safety, and fisheries protection. 
 Health services are centered on regional hospitals in Kingston City and Port Royal, with clinics on outlying islands. 
 Environmental policy emphasizes marine conservation, waste reduction, and incremental renewable energy adoption (solar and wind) to reduce diesel reliance. 
-In recent years, the coast guard has been plagued by under-funding and considerable debate has occurred regarding modernization and proposals for a national compulsory service for youths to address low enlistment rates. 
+
+In recent years, the coast guard has been plagued by under-funding and considerable debate has occurred regarding modernization and proposals for a national compulsory service for youths to address low enlistment rates. Its four aging patrol frigates are increasingly unreliable, and there is a growing consensus that the force needs to be restructured and reimagined to meet 21st-century challenges.
 
 The island is broadly safe, and there has never been a major terrorist or domestic incident. There has never been a bombing, shooting, or mass casualty event. The island is broadly healthy, and aside from a brief COVID-19 lockdown, has never suffered major health scares, despite a somewhat underfunded national health system which struggles to recruit and retain skilled medical staff. 
 
@@ -182,6 +187,3 @@ The island is broadly safe, and there has never been a major terrorist or domest
 
 A majority of Kingston's population uses the indigenous platform 'Legit Social', a Twitter-style software which is used for news and entertainment alike.
 
-# Journalism:
-
-The press is free and vibrant in Kingston, though the small size of the market means that just two newspapers dominate the media landscape. The first, the "Daily Kingston", is widely considered to be right-leaning, and tends to report through a lens of the importance of traditional values. The second, meanwhile, is the "Kingston Herald", which is in turn considered to be left-leaning - it focuses on reporting stories through the daily lives and needs of the common people, and often covering news, politics, and social issues with a populist tone.
