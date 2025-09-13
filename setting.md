@@ -28,11 +28,13 @@ In other words, you will be trying to find out:
 **Background:** CEO of "Island Horizons"—Kingston’s largest resort chain  
 **Style:** Hard-right firebrand  
 **Legit Social handle:** @marina_castillo
+
 **Promises:**  
 - 💸 Sweeping tax cuts  
 - 🏨 Tourism-led economic boom  
 - 👮 Increase to Police and Defence funding  
 - 🚨 Crackdown on "creeping socialist excess"  
+
 **Persona:** A polished, confident, ruthless executive.
 
 ---
@@ -42,11 +44,13 @@ In other words, you will be trying to find out:
 **Background:** Career politician, champion of the hard-left  
 **Style:** Outspoken reformer  
 **Legit Social handle:** @victor_hawthorne
+
 **Promises:**  
 - 💰 Free college and job training, funded by progressive taxes
 - 🌱 Carbon taxes and a ban on offshore drilling
 - 🔒 Police and military reform, focusing on more community investment
-- 🔨 Dismantling Kingston’s “oligarchic” power structures
+- 🔨 Dismantling Kingston’s “oligarchic” power structures  
+
 **Persona:** A passionate, relentless voice for the people.
 
 ---
@@ -132,6 +136,8 @@ Elections for the presidency and assembly occur every four years, with a two-ter
 
 Political polling is mainly done by the Independent Polling Association of Kingston, a non-partisan organization made up of local researchers and analysts. They have a long history of accuracy and reliability, having been conducting opinion polls since 1995.
 
+The national flag is depicted as a blue field with a red star formed by three intersecting bars, symbolizing the union of the main islands and their seafaring identity. 
+
 # Demographics: 
 
 The population is concentrated in urban coastal districts, with a few very small settlements on outer islands. 
@@ -160,17 +166,15 @@ A new commuter railroad is being debated and constructed right now to link Kings
 - Kingston University (Kingston City) — a prestigious institution known for law, business, and the arts; home to policy and cultural studies centers. 
 - Port Royal Institute of Technology (Port Royal) — focuses on engineering and computer science; collaborates with industry on applied research, robotics, and sustainable maritime technologies. 
 
-# Culture: 
+# Culture and Sport: 
 
 Kingston’s culture blends maritime heritage with contemporary influences. 
 Cuisine highlights seafood, tropical produce, and spice-driven dishes. 
-Festivals feature sailing, drumming traditions, and street markets. 
-
-The national flag is depicted as a blue field with a red star formed by three intersecting bars, symbolizing the union of the main islands and their seafaring identity. 
-
-# Sport: 
+Festivals feature sailing, drumming traditions, and street markets, with the most prominent being Regatta Week in Port Royal and the Mango & Spice Festival in New Haven.
 
 Sport is central to community life, with club rivalries across multiple codes. 
+
+Each year, Regatta Week in Port Royal draws international sailing teams and tourists.
 
 # Public services, security, and environment: 
 
@@ -186,4 +190,3 @@ The island is broadly safe, and there has never been a major terrorist or domest
 # Social media: 
 
 A majority of Kingston's population uses the indigenous platform 'Legit Social', a Twitter-style software which is used for news and entertainment alike.
-
