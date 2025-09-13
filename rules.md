@@ -242,6 +242,7 @@ Legit Social — Terms of Service & Community Guidelines
 - Debate ideas freely; don’t attack people.
 - No hate speech, harassment, threats, or doxxing.
 - No sexual content or illegal activity.
+- No youngsters - 16+ only.
 - Respect rate limits; one account only and don’t spam or game the system.
 - Report responsibly; bad-faith reporting is itself a violation.
 - Parody/role-play is okay when it’s obvious and not used for scams.
@@ -275,6 +276,8 @@ LS.3.2. **Accurate information**. Provide accurate sign-up details. Impersonatio
 LS.3.3. **Parody & role-play**. Satire and role-play are permitted if it’s clear to a reasonable person (e.g., “parody” or “role-play” indicated in bio or display name) and not used to deceive users into surrendering credentials, money, or sensitive information.
 
 LS.3.4. **Security**. Keep your credentials secure. If you suspect compromise, change your password and notify support immediately.
+
+LS.3.5. **Age requirement**. You must be at least 16 years old to use Legit Social. 
 
 ## LS.4. Content Rules
 
