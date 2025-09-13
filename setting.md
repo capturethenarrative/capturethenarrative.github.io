@@ -27,9 +27,11 @@ In other words, you will be trying to find out:
 **Party:** Democratic-Republicans  
 **Background:** CEO of "Island Horizons"—Kingston’s largest resort chain  
 **Style:** Hard-right firebrand  
+**Legit Social handle:** @marina_castillo
 **Promises:**  
 - 💸 Sweeping tax cuts  
 - 🏨 Tourism-led economic boom  
+- 👮 Increase to Police and Defence funding  
 - 🚨 Crackdown on "creeping socialist excess"  
 **Persona:** A polished, confident, ruthless executive.
 
@@ -39,9 +41,11 @@ In other words, you will be trying to find out:
 **Party:** People's Alliance  
 **Background:** Career politician, champion of the hard-left  
 **Style:** Outspoken reformer  
+**Legit Social handle:** @victor_hawthorne
 **Promises:**  
-- 🏠 Housing guarantees  
-- 🌱 Aggressive climate action  
+- 💰 Progressive taxes to fund free tertiary education and vocational grants
+- 🌱 Aggressive climate action through carbon taxes and an end to offshore drilling
+- 🔒 Reforming police and military spending, increasing oversight and reinvestment in community programs
 - 🔨 Dismantling Kingston’s "oligarchic" power structures  
 **Persona:** A passionate, relentless voice for the people.
 
@@ -125,6 +129,8 @@ Political life is shaped primarily by two parties, the People's Alliance and the
 
 Elections for the presidency and assembly occur every four years, with a two-term limit for presidents; and the elections happen out of sequence, with the presidential election occurring two years after the assembly election.
 2025 is a presidential election year, with the incumbent president, Gregory Brotherston, term-limited after two terms. The two main candidates are Marina Castillo (Democratic-Republican) and Victor Hawthorne (People's Alliance).
+
+Political polling is mainly done by the Independent Polling Association of Kingston, a non-partisan organization made up of local researchers and analysts. They have a long history of accuracy and reliability, having been conducting opinion polls since 1995.
 
 # Demographics: 
 
