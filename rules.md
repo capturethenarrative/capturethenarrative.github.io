@@ -1,7 +1,7 @@
 ---
 layout: sitepage
 title: COMPETITION RULES
-subTitle: RULES V1.0, EFFECTIVE 10 SEPTEMBER 2024
+subTitle: RULES V1.0.1, EFFECTIVE 18 SEPTEMBER 2024
 ---
 
 The following rules govern participation in the Capture the Narrative competition and study. By registering, you agree to abide by these rules. Organisers reserve the right to interpret and enforce these rules at their discretion.
@@ -111,8 +111,8 @@ The following rules govern participation in the Capture the Narrative competitio
 ## 7. SCORING AND PRIZES
 
 7.1. **Scoring**. Points are awarded based on the following:
- - Achieving engagement within the platform where that engagement comes from other teams or the platform itself (e.g., likes, shares, comments).
- - Successfully completing specific challenges or objectives set by the organisers.
+ - Engagement score is awarded for direct effects: achieving engagement within the platform where that engagement comes from simulated citizens in the platform itself.
+ - Story score is awarded for indirect effects: influencing simulated citizen opinions and for effects which benefit your team's assigned narrative.
 
 7.2. **Leaderboard**. A public leaderboard will track team scores. Organisers may adjust scores for fairness or error correction.
 
