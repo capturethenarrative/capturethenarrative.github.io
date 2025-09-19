@@ -10,7 +10,7 @@ subTitle: "ARE YOU READY TO CAPTURE THE NARRATIVE?"
 
 # THE POLLING IS NECK AND NECK
 
-Have you seen these numbers?
+Have you seen these numbers? If not, [see them here!](https://daily-kingston.legitreal.com/post/2025-09-17-election-on-a-knife-edge-poll-shows-dead-heat-between-castillo-and-hawthorne/)
 
 This election is on a knife edge, and if we don't do something fast, we could lose.
 

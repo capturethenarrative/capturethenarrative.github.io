@@ -10,7 +10,7 @@ subTitle: "ARE YOU READY TO CAPTURE THE NARRATIVE?"
 
 # THE POLLING IS NECK AND NECK
 
-Incredible - have you seen these numbers?
+Incredible - have you seen these numbers? [If not, see them here!](https://kingston-herald.legitreal.com/post/2025-09-17-neck-and-neck-poll-shows-dead-heat-in-presidential-race/)
 
 This election is on a knife's edge. This is the best opportunity we've had in a generation to take back the government.
 
