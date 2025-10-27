@@ -6,6 +6,8 @@ subTitle: RULES V1.0.1, EFFECTIVE 18 SEPTEMBER 2024
 
 The following rules govern participation in the Capture the Narrative competition and study. By registering, you agree to abide by these rules. Organisers reserve the right to interpret and enforce these rules at their discretion.
 
+Note: For the 2025 competition, we awarded "finalist" positions to four teams instead of the specified three. This was in recognition of the high calibre of the top four teams and the close scores between them. As such, we invited all four teams to present at the prizegiving event, where the judges will now rank them from first to third place (equal) based on their presentations and overall performance during the competition.
+
 <br />
 <hr />
 <br />
