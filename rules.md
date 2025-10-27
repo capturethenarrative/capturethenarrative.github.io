@@ -1,7 +1,7 @@
 ---
 layout: sitepage
 title: COMPETITION RULES
-subTitle: RULES V1.0.1, EFFECTIVE 18 SEPTEMBER 2024
+subTitle: RULES V1.0.1, EFFECTIVE 18 SEPTEMBER 2025
 ---
 
 The following rules govern participation in the Capture the Narrative competition and study. By registering, you agree to abide by these rules. Organisers reserve the right to interpret and enforce these rules at their discretion.
