@@ -40,7 +40,7 @@ h6 {
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 1.125em; /* 18px */
     font-weight: 400;
 }
 
@@ -83,7 +83,7 @@ section{
 .intro-message > h1 {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
-    font-size: 5em;
+    font-size: 3.125em; /* 5em relative to default size */
     opacity: 0.0;
 }
 
@@ -234,7 +234,7 @@ section{
 }
 
 .text-card-quote {
-    font-size: 18rem; 
+    font-size: 11.25em; /* 18rem */
     position: absolute; 
     top: -70px; 
     left: 0px; 
@@ -244,6 +244,7 @@ section{
 }
 
 .text-card-text {
+    font-size: 1em;
     font-style: italic;
     min-height: 60px;
     position: relative;
@@ -261,7 +262,7 @@ section{
 .text-card-author {
     text-align: right;
     font-weight: 700;
-    font-size:1.5rem;
+    font-size: 1.5em;
     /* color: #193273; */
     min-height: 32px;
     margin-top: 10px;
@@ -574,7 +575,7 @@ p.copyright {
 
 .candidate-info .party {
     color: #666;
-    font-size: 1.2rem;
+    font-size: 0.8em;
     margin: 0;
 }
 
@@ -646,7 +647,7 @@ p.copyright {
 }
 
 .tech-number {
-    font-size: 2.8rem;
+    font-size: 1.1em;
     font-weight: bold;
     color: #3F67C7;
     margin-bottom: 0.5rem;
@@ -654,14 +655,14 @@ p.copyright {
 }
 
 .tech-label {
-    font-size: 1.2rem;
+    font-size: 0.9em;
     font-weight: bold;
     color: #343a40;
     margin-bottom: 1rem;
 }
 
 .tech-description {
-    font-size: 0.95rem;
+    font-size: 0.8em;
     color: #6c757d;
     line-height: 1.5;
 }
@@ -717,7 +718,7 @@ p.copyright {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 0.8em;
     color: #495057;
 }
 
@@ -881,6 +882,9 @@ p.copyright {
     flex-direction: column;
     gap: 4rem;
     margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .screenshot-container {
@@ -913,7 +917,6 @@ p.copyright {
 }
 
 .screenshot-caption p {
-    font-size: 1.2em;
     color: #444;
     margin-bottom: 0.5rem;
     line-height: 1.6;
@@ -1000,7 +1003,7 @@ p.copyright {
 
 .university {
     color: #666;
-    font-size: 1.25rem;
+    font-size: 0.8em;
     margin: 0;
 }
 
@@ -1106,7 +1109,7 @@ p.copyright {
 }
 
 .site-page-content {
-    font-size:18px;
+    font-size: 1.125em; /* 18px */
     /*not bold*/
     font-weight: 400;
     border-radius:16px;
@@ -1116,7 +1119,7 @@ p.copyright {
 
 .site-page-content-page {
     padding:20px 0;
-    font-size:18px;
+    font-size: 1.125em; /* 18px */
     /*not bold*/
     font-weight: 400;
     border-radius:16px;
@@ -1160,7 +1163,7 @@ p.copyright {
 }
 
 .stats-number {
-    font-size: 3.2rem;
+    font-size: 1.2em; /* 3.2rem standardized */
     font-weight: bold;
     color: #3F67C7;
     font-family: "Fugaz One","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1168,19 +1171,19 @@ p.copyright {
 }
 
 .stats-label {
-    font-size: 1.4rem;
+    font-size: 0.9em;
     font-weight: bold;
     color: #333;
     margin-bottom: 1rem;
 }
 
 .stats-icon {
-    font-size: 2.5rem;
+    font-size: 2em;
     margin: 1rem 0;
 }
 
 .stats-detail {
-    font-size: 1rem;
+    font-size: 0.8em;
     color: #666;
 }
 
@@ -1424,7 +1427,7 @@ p.copyright {
 }
 
 .stats-number-large {
-    font-size: 4.5rem;
+    font-size: 2em; 
     font-weight: bold;
     color: #3F67C7;
     font-family: "Fugaz One","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1432,14 +1435,14 @@ p.copyright {
 }
 
 .stats-label-large {
-    font-size: 2rem;
+    font-size: 1em;
     font-weight: bold;
     color: #333;
     margin-bottom: 1rem;
 }
 
 .stats-percentage {
-    font-size: 3.5rem;
+    font-size: 2em; /* 3.5rem standardized */
     font-weight: bold;
     color: #E85E57;
     margin: 1.5rem 0;
@@ -1447,13 +1450,13 @@ p.copyright {
 }
 
 .stats-detail-large {
-    font-size: 1.4rem;
+    font-size: 1em;
     color: #555;
     margin-bottom: 1.5rem;
 }
 
 .stats-context {
-    font-size: 1.1rem;
+    font-size: 0.8em;
     color: #666;
     font-style: italic;
     max-width: 800px;
@@ -1462,31 +1465,31 @@ p.copyright {
 
 @media(max-width: 768px) {
     .stats-number {
-        font-size: 2.5rem;
+        font-size: 1.75em;
     }
 
     .stats-label {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 
     .stats-number-large {
-        font-size: 3rem;
+        font-size: 2em;
     }
 
     .stats-label-large {
-        font-size: 1.5rem;
+        font-size: 1.5em;
     }
 
     .stats-percentage {
-        font-size: 2.5rem;
+        font-size: 1.75em;
     }
 
     .stats-detail-large {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 
     .stats-context {
-        font-size: 1rem;
+        font-size: 1em;
         padding: 0 1rem;
     }
 }
