@@ -1,36 +1,34 @@
 ---
 layout: sitepage
-title: PRIZEGIVING
+title: 2025 PRIZEGIVING
 subTitle:
 ---
 
 # WHEN & WHERE
 
-Friday OCTOBER 31, 12:00PM to 4:00PM
+This event took place on Friday OCTOBER 31 2025.
 
-LEVEL 4, 210 GEORGE STREET, SYDNEY NSW 2000 
+# WHAT HAPPENED
 
-# WHAT TO EXPECT
+The event opened with a short networking session, followed by short remarks from our organising committee, Dean of Engineering at UNSW Prof. Julien Epps, and from our sponsor M&C Saatchi World Services.
 
-The event will open with a short networking session, followed by short remarks from our organising committee, Dean of Engineering at UNSW Prof. Julien Epps, and from our sponsor M&C Saatchi World Services. 
+Then, each of our four finalist teams presented how they approached the competition challenge to our panel of 3 judges, who had the opportunity to ask questions after each presentation. Each team had 7 minutes to present, followed by 5 minutes of Q&A.
 
-Then, each of our four finalist teams will present how they approached the competition challenge to our panel of 3 judges, who will have the opportunity to ask questions after each presentation. Each team will have 7 minutes to present, followed by 5 minutes of Q&A.
+Following this, there was a break during which the judges deliberated to order the teams from 1st to 3rd place (equal). This was then followed by remarks from Prof. Debi Ashenden, Director of the UNSW Institute for Cyber Security, as well as our sponsor Day of AI Australia.
 
-Following this, there will be a break during which the judges will deliberate to order the teams from 1st to 3rd place (equal). This will then be followed by remarks from Prof. Debi Ashenden, Director of the UNSW Institute for Cyber Security, as well as our sponsor Day of AI Australia. 
+Finally, we announced the winners and awarded prizes to the teams.
 
-Finally, we will announce the winners and award prizes to the teams.
-
-We will conclude with a networking session with canapés and a selection of drinks.
+We concluded with a networking session with canapés and a selection of drinks.
 
 # PRIZES
 
- - First Place: $5,000 AUD
- - Second Place: $2,500 AUD
- - Third Place (equal): $1,500 AUD
- - Third Place (equal): $1,500 AUD
- - "Real-World Engagement Award": $500 AUD
+ - First Place: $5,000 AUD - won by Team CtN_QUT
+ - Second Place: $2,500 AUD - won by Team 3K+J+L
+ - Third Place (equal): $1,500 AUD - won by Team chatisthisreal
+ - Third Place (equal): $1,500 AUD - won by Team Trust Me Bro
+ - "Real-World Engagement Award": $500 AUD - won by Team Infinite Monkey Theorem
 
-All finalist teams will receive a certificate of achievement as well as an evening's hotel accommodation in Sydney on the night of 31 October 2025 to attend the prizegiving event. Teams located outside of Sydney will also be offered economy-class return flights to Sydney for the prizegiving event.
+All finalist teams received a certificate of achievement as well as an evening's hotel accommodation in Sydney on the night of 31 October 2025 to attend the prizegiving event. Teams located outside of Sydney were also offered economy-class return flights to Sydney for the prizegiving event.
 
 # JUDGES
 

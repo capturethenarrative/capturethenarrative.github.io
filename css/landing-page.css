@@ -369,6 +369,222 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+/* Winners Section Styles */
+
+/* Splash Styles */
+.winners-splash {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.winners-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.winners-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.winners-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.winners-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.winners-content h1 {
+    font-size: 4em;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.winners-content .lead {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.winners-list {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.winners-list p {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.thank-you {
+    margin-top: 2rem;
+    font-style: italic;
+    color: #fff;
+}
+
+@media(max-width:767px) {
+    .winners-content h1 {
+        font-size: 2.5em;
+    }
+    
+    .winners-list {
+        padding: 1rem;
+    }
+    
+    .winners-list p {
+        font-size: 1em;
+    }
+}
+
+/* Winners Details Styles */
+.winners-details {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.winner-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.winner-card:hover {
+    transform: translateY(-5px);
+}
+
+.winner-medal {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.medal-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.winner-medal h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.75rem;
+}
+
+.prize-amount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #E85E57;
+    margin-top: 0.5rem;
+}
+
+.winner-info {
+    text-align: center;
+}
+
+.winner-info h4 {
+    color: #3F67C7;
+    font-size: 1.6rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.university {
+    color: #666;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.winners-row {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.winners-row .winner-card {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.first-place {
+    background: linear-gradient(135deg, #fff 0%, #fff 97%, #FFD700 97%, #FFD700 100%);
+}
+
+.second-place {
+    background: linear-gradient(135deg, #fff 0%, #fff 97%, #C0C0C0 97%, #C0C0C0 100%);
+}
+
+.third-place {
+    background: linear-gradient(135deg, #fff 0%, #fff 97%, #CD7F32 97%, #CD7F32 100%);
+}
+
+.engagement-award {
+    background: linear-gradient(135deg, #fff 0%, #fff 97%, #3F67C7 97%, #3F67C7 100%);
+}
+
+.winners-footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: #666;
+    font-style: italic;
+}
+
+@media(max-width: 768px) {
+    .winners-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .winner-card {
+        padding: 1.5rem;
+    }
+
+    .medal-icon {
+        font-size: 2.5rem;
+    }
+
+    .winner-medal h3 {
+        font-size: 1.3rem;
+    }
+
+    .prize-amount {
+        font-size: 1.5rem;
+    }
+
+    .winner-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .university {
+        font-size: 0.9rem;
+    }
+}
+
 /* hammond's additions */
 
 .navbar {

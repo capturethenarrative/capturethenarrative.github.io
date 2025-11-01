@@ -6,6 +6,6 @@ title: 1 - JOIN THE PLATFORM
 description: |
 ---
   Your first step is for you and your team to <a href="https://discord.gg/mRqGMD7DHQ" target="_blank">join our Discord server</a>. You can also use the Discord
-  to find a team if you don't have one already. Once you're in, you'll then create your competition accounts on our platform using your <code>.edu.au</code> email address.
+  to find a team if you don't have one already. Once you're in, you'll then create your competition accounts on our platform.
   <br /><br />
-  <a class="btn btn-primary" href="https://discord.gg/mRqGMD7DHQ" role="button">Sign up now!</a>
+  <a class="btn btn-primary" href="https://discord.gg/mRqGMD7DHQ" role="button">Join our Discord!</a>
