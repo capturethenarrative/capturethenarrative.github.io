@@ -457,6 +457,491 @@ p.copyright {
     }
 }
 
+/* Setting Styles */
+.setting-splash {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.setting-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting-flag {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.setting-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.setting-content {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.setting-content h1 {
+    font-size: 4.5em;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.setting-description {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.setting-description .lead {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Candidate Cards Styles */
+.candidate-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.candidate-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    overflow: hidden;
+}
+
+.candidate-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.candidate-image.front {
+    opacity: 1;
+}
+
+.candidate-image.back {
+    opacity: 0;
+}
+
+.candidate-card:hover .candidate-image.front,
+.candidate-card.flipped .candidate-image.front {
+    opacity: 0;
+}
+
+.candidate-card:hover .candidate-image.back,
+.candidate-card.flipped .candidate-image.back {
+    opacity: 1;
+}
+
+.candidate-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.candidate-info h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.candidate-info .party {
+    color: #666;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Add scroll trigger class */
+.candidate-card.flipped .candidate-image.front {
+    opacity: 0;
+}
+
+.candidate-card.flipped .candidate-image.back {
+    opacity: 1;
+}
+
+@media(max-width: 768px) {
+    .setting-content h1 {
+        font-size: 3em;
+    }
+    
+    .setting-description .lead {
+        font-size: 1.4em;
+    }
+
+    .candidate-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .candidate-info .party {
+        font-size: 1rem;
+    }
+}
+
+/* Tech Section Styles */
+.tech-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.tech-section .section-heading {
+    margin-bottom: 3rem;
+}
+
+.tech-section .lead {
+    font-size: 1.5em;
+    color: #495057;
+    margin-top: 1rem;
+}
+
+.tech-stats {
+    margin-bottom: 3rem;
+}
+
+.tech-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.tech-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.tech-number {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #3F67C7;
+    margin-bottom: 0.5rem;
+    font-family: "Fugaz One","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.tech-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+.tech-description {
+    font-size: 0.95rem;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.tech-explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-explanation > p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.tech-card.capabilities {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.tech-card.capabilities:hover {
+    transform: translateY(-5px);
+}
+
+.tech-card-large {
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.tech-card-large h3 {
+    color: #343a40;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #495057;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    min-width: 2rem;
+}
+
+.tech-footer {
+    margin-top: 2rem;
+    font-style: italic;
+    color: #6c757d;
+    text-align: center;
+}
+
+/* Card Theme Colors */
+.tech-card.agents {
+    border-top: 4px solid #3F67C7;
+}
+
+.tech-card.properties {
+    border-top: 4px solid #28a745;
+}
+
+.tech-card.code {
+    border-top: 4px solid #E85E57;
+}
+
+.tech-card.system {
+    border-top: 4px solid #ffc107;
+}
+
+.tech-card.capabilities {
+    border-top: 4px solid #17a2b8;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+    .tech-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .tech-number {
+        font-size: 2.2rem;
+    }
+
+    .tech-label {
+        font-size: 1.1rem;
+    }
+
+    .tech-section .lead {
+        font-size: 1.2em;
+    }
+}
+
+/* Posting Examples Section Styles */
+.posting-section {
+    padding: 4rem 0;
+    background: #f8f8f8;
+}
+
+.posting-section .section-heading {
+    margin-bottom: 3rem;
+}
+
+.posting-section .lead {
+    font-size: 1.4em;
+    color: #555;
+    max-width: 800px;
+    margin: 1.5rem auto;
+}
+
+.posts-row {
+    margin-bottom: 2rem;
+}
+
+.posts-row:last-child {
+    margin-bottom: 0;
+}
+
+.post-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.main-posts .post-card {
+    max-width: 100%;
+}
+
+.secondary-posts .post-card {
+    max-width: 100%;
+    margin: 0 auto 2rem;
+}
+
+@media(max-width: 768px) {
+    .posting-section .lead {
+        font-size: 1.2em;
+        padding: 0 1rem;
+    }
+
+    .secondary-posts .post-card {
+        max-width: 80%;
+    }
+}
+
+/* Platform Section Styles */
+.platform-section {
+    padding: 4rem 0;
+    background: #f8f8f8;
+}
+
+.platform-header {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.platform-logo {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.platform-logo:hover {
+    transform: scale(1.05);
+}
+
+.platform-header h2 {
+    font-size: 2.8em;
+    margin: 1rem 0;
+    color: #333;
+}
+
+.platform-intro {
+    margin-bottom: 4rem;
+}
+
+.platform-intro .lead {
+    font-size: 1.4em;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.platform-screenshots {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.screenshot-container {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.screenshot-container:hover {
+    transform: translateY(-5px);
+}
+
+.screenshot-wrapper {
+    padding: 2rem;
+}
+
+.platform-screenshot {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.screenshot-caption {
+    margin-top: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.screenshot-caption p {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.screenshot-caption .text-muted {
+    color: #777;
+    font-style: italic;
+}
+
+@media(max-width: 768px) {
+    .platform-header h2 {
+        font-size: 2em;
+    }
+
+    .platform-intro .lead {
+        font-size: 1.2em;
+    }
+
+    .screenshot-wrapper {
+        padding: 1rem;
+    }
+
+    .screenshot-caption p {
+        font-size: 1.1em;
+    }
+}
+
 /* Winners Details Styles */
 .winners-details {
     max-width: 1000px;
