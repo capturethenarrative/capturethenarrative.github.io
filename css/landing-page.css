@@ -40,7 +40,7 @@ h6 {
 }
 
 .lead {
-    font-size: 1.125em; /* 18px */
+    font-size: 1em; /* 18px */
     font-weight: 400;
 }
 
@@ -262,7 +262,7 @@ section{
 .text-card-author {
     text-align: right;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 0.8em;
     /* color: #193273; */
     min-height: 32px;
     margin-top: 10px;
@@ -271,14 +271,14 @@ section{
 .content-section-a {
     padding-top:10px;
     padding-bottom:30px;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
 .content-section-b {
     padding-top:10px;
     padding-bottom:30px;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 400;
     background: #f7f7f7;
 }
@@ -729,9 +729,9 @@ p.copyright {
 }
 
 .tech-footer {
-    margin-top: 2rem;
-    font-style: italic;
-    color: #6c757d;
+    margin-top: 2rem !important;
+    /* font-style: italic; */
+    /* color: #6c757d; */
     text-align: center;
 }
 
@@ -1109,7 +1109,7 @@ p.copyright {
 }
 
 .site-page-content {
-    font-size: 1.125em; /* 18px */
+    font-size: 1em; /* 18px */
     /*not bold*/
     font-weight: 400;
     border-radius:16px;
@@ -1119,7 +1119,7 @@ p.copyright {
 
 .site-page-content-page {
     padding:20px 0;
-    font-size: 1.125em; /* 18px */
+    font-size: 1em; /* 18px */
     /*not bold*/
     font-weight: 400;
     border-radius:16px;
